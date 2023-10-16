@@ -8,12 +8,13 @@ namespace Tyuiu.KomanichRM.Sprint2.Task0.V27.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidSumOfRows()
+        public void ValidGetSumSeries()
         {
             DataService ds = new DataService();
-            double k = 1;
-            double n = 5;
-            double res = ds.SumOfRows(k, n);
+            double k = 5;
+            int n = 1;
+            int h = 14;
+            double res = ds.GetSumSeries(k,n,h);
             double wait = 16.016;
             Assert.AreEqual(res, wait);
 
