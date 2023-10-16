@@ -11,10 +11,10 @@ namespace Tyuiu.KomanichRM.Sprint2.Task0.V27.Test
         public void ValidGetSumSeries()
         {
             DataService ds = new DataService();
-            double k = 5;
-            int n = 1;
-            int h = 14;
-            double res = ds.GetSumSeries(k,n,h);
+            double value = 5;
+            int startValue = 1;
+            int stopValue = 14;
+            double res = ds.GetSumSeries(value,startValue,stopValue);
             double wait = 16.016;
             Assert.AreEqual(res, wait);
 
