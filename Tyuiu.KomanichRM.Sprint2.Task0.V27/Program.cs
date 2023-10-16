@@ -31,7 +31,7 @@ namespace Tyuiu.KomanichRM.Sprint2.Task0.V27
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.SumOfRows(1, 5));
+            Console.WriteLine(ds.GetSumSeries(5,1,14));
             Console.ReadKey();
         }
     }
