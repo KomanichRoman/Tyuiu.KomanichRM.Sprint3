@@ -13,7 +13,7 @@ namespace Tyuiu.KomanichRM.Sprint2.Task0.V27.Test
             DataService ds = new DataService();
             double value = 5;
             int startValue = 1;
-            int stopValue = 14;
+            int stopValue = 13;
             double res = ds.GetSumSeries(value,startValue,stopValue);
             double wait = 16.016;
             Assert.AreEqual(res, wait);
