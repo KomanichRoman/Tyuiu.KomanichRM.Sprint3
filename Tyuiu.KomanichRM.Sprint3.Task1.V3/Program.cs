@@ -15,7 +15,7 @@ namespace Tyuiu.KomanichRM.Sprint3.Task1.V3
             Console.Title = "Спринт #3 | Выполнил: Команич Р. М. | АСОиУб-23-3";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
-            Console.WriteLine("* Тема: Алгоритмы циклической структуры                                   *");
+            Console.WriteLine("* Тема: Оператор цикла while                                              *");
             Console.WriteLine("* Задание #1                                                              *");
             Console.WriteLine("* Вариант #3                                                              *");
             Console.WriteLine("* Выполнил: Команич Роман Маркович | АСОиУб-23-3                          *");

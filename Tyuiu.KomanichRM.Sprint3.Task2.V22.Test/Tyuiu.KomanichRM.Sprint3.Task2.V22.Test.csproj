@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{61F6A087-37DC-4E22-8306-51C667CA8A6B}</ProjectGuid>
+    <ProjectGuid>{AF5FAEE7-52F2-4800-85C5-747E76202343}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.KomanichRM.Sprint3.Task0.V27.Test</RootNamespace>
-    <AssemblyName>Tyuiu.KomanichRM.Sprint3.Task0.V27.Test</AssemblyName>
+    <RootNamespace>Tyuiu.KomanichRM.Sprint3.Task2.V22.Test</RootNamespace>
+    <AssemblyName>Tyuiu.KomanichRM.Sprint3.Task2.V22.Test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.KomanichRM.Sprint2.Task0.V27.Lib\Tyuiu.KomanichRM.Sprint3.Task0.V27.Lib.csproj">
-      <Project>{0c1a1b50-e63a-4f6c-b342-da36d498c0f9}</Project>
-      <Name>Tyuiu.KomanichRM.Sprint3.Task0.V27.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.KomanichRM.Sprint3.Task2.V22.Lib\Tyuiu.KomanichRM.Sprint3.Task2.V22.Lib.csproj">
+      <Project>{eb984148-63dc-484a-8e06-653a64d9c56b}</Project>
+      <Name>Tyuiu.KomanichRM.Sprint3.Task2.V22.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
